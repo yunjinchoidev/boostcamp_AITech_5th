@@ -3,10 +3,16 @@ NAVER 부스트캠프 AI Tech 5기 기록 (23.3.6 ~ 23.8.2)
 ![aitech5기.png](aitech5%EA%B8%B0.png)
 
 
-> * ### 1주차
->   * [1주차 기록](/주차별정리/1주차/note.md)
->   * 회고
->     * 
+* ### 1주차
+  * 강의
+    * Python
+      * [파이썬 강의록 정리](../../강의록/파이썬/notebook.ipynb)
+    * AIMath
+      * [AIMath 강의록 정리](../../강의록/AIMath/note.md)
+    * Pytorch
+      * [Pytorch 강의록 정리](../../강의록/Pytorch/note.md) 
+* 회고 
+  *
 
 
 
