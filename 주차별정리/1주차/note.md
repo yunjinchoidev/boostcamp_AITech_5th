@@ -2,7 +2,7 @@
 
 * 강의
   * Python
-    * [파이썬 강의록 정리](../../강의록/파이썬/note.md)
+    * [파이썬 강의록 정리](../../강의록/파이썬/notebook.ipynb)
   * AIMath
     * [AIMath 강의록 정리](../../강의록/AIMath/note.md)
   * Pytorch
