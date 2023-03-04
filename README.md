@@ -1,20 +1,27 @@
 # boostcamp_AITech_5th
-NAVER 부스트캠프 AI Tech 5기 기록 (23.3.6 ~ 23.8.2)
+
 ![aitech5기.png](aitech5%EA%B8%B0.png)
 
 
-* ### 1주차
+```angular2html
+(23.3.6 ~ 23.8.2)
+
+안녕하세요. 부스트캠프 AITech 5기 활동을 기록하기 위한 레포지토리입니다.
+```
+
+
+---
+# 1주차
   * 강의
     * Python
-      * [파이썬 강의록 정리](../../강의록/파이썬/notebook.ipynb)
+      * [파이썬 강의록 정리](강의록/파이썬/notebook.ipynb)
     * AIMath
-      * [AIMath 강의록 정리](../../강의록/AIMath/note.md)
+      * [AIMath 강의록 정리](강의록/AIMath/note.md)
     * Pytorch
-      * [Pytorch 강의록 정리](../../강의록/Pytorch/note.md) 
-* 회고 
-  *
-
-
+      * [Pytorch 강의록 정리](강의록/Pytorch/note.md) 
+  * 회고 
+    
+---
 
 
 > * 2주차
