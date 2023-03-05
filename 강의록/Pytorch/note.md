@@ -58,19 +58,57 @@ w.grad
   - 템플릿 구조를 면밀하게 분석하는 것을 해보시라.
 
 
+---
 # 4. AutoGrad & Optimizer
+- 논문을 구현해봅시다.
+- 딥러닝 -> layer 쌓기 -> 레고 블럭 쌓기
+- 4요소
+  - input
+  - output
+  - forward
+  - backward
+  - 
+
+---
 
 # 5. Pytorch Dataset & Dataloader
+- 모델도 중요하지만, 데이터를 어떻게 잘 다루느냐도 중요하다.
+- Pytorch Dataset
+  - 먼저 데이터를 텐서로 바꾸고 DataLoder 로 모델에 먹이기
+- Dataset Class
+  - init, len, getitem
+- 
 
+
+---
 # 6. 모델 불러오기
+- 
 
+
+
+---
 # 7. Monitoring tools for PyTorch
 
+
+
+---
 # 8. Muti-GPU
+
+
+
+
+---
 
 # 9. Hyperparameter Tuning
 
+
+
+---
+
 # 10. PyTorch Troubleshooting
+
+
+
 
 ---
 
