@@ -31,7 +31,25 @@
 
 
 # 2. PyTorch Basics
-- 
+- AutoGrad
+  - # AutoGrad
+```
+w = torch.tensor(2.0, requires_grad=True)
+y = w**2
+z = 10*y + 25
+z.backward()
+w.grad
+
+> z.backward() 를 통해 오차역전파를 계산
+> w.grad 를 통해 z 에 대한 w 그레디언트 추출
+```
+
+
+
+
+
+
+
 
 # 3. Project Structure
 
