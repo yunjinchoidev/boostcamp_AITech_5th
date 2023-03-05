@@ -51,6 +51,12 @@ w.grad
 
 
 # 3. Project Structure
+- 언제까지 코랩쓸래? 템플릿을 쓰자.
+- 템플릿
+  - 실행, 데이터, 모델,  설정, 로깅, 지표, 유틸리티
+  - [링크](https://github.com/victoresque/pytorch-template)
+  - 템플릿 구조를 면밀하게 분석하는 것을 해보시라.
+
 
 # 4. AutoGrad & Optimizer
 
