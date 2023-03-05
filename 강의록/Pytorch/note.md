@@ -32,7 +32,6 @@
 
 # 2. PyTorch Basics
 - AutoGrad
-  - # AutoGrad
 ```
 w = torch.tensor(2.0, requires_grad=True)
 y = w**2
