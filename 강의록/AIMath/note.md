@@ -101,7 +101,7 @@
 * 목표
   * 데이터의(표본) 확률 분포를 가지고 -> 실제 (모집단)의 확률 분포를 추정한다.
 * 주변확률분포
-* 통계값
+* 통계값(모수)
   * 기댓값
   * 분산
   * 첨도
@@ -110,7 +110,33 @@
 * **몬테카를로 샘플링**
   * 데이터(샘플링)를 통해 기댓값을 계산하는 방법
   * 대수의 법칙을 통해 수렴성을 보장한다.
-* 
+
+```
+import numpy as np
+
+def monte(fun, low, high, sample_size=100, repeat=10):
+    int_len = np.abs(high - low)
+    stat = []
+
+    for _ in range(repeat):
+        x = np.random.uniform(low=low, high=high, size=sample_size)
+        fun_x = fun(x)
+        int_val = int_len * np.mean(fun_x)
+        stat.append(int_val)
+
+    return np.mean(stat), np.std(stat)
+
+
+- 주어진 함수
+def f_x(x):
+    return np.exp(-x**2)
+
+
+print(monte(f_x, low=-1, high=1, sample_size=1000, repeat=100))
+
+```
+
+
 
 
 ---
